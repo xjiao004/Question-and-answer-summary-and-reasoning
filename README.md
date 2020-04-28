@@ -5,8 +5,12 @@ question and answer summary and reasoning
 
 测试集（20000条记录）使用训练好的模型，输出建议报告的结果文件。
 # 项目文件说明
-seq2seq_pgn_tf2文件下是使用tensorflow2.0搭建完成的两个模型，一个是baseline版本的seq2seq模型，另外一个是基于seq2seq的Pointer-Generator Networks（PGN）模型。
+文件|模型|框架
+:--:|:--:|:--:
+seq2seq_tf2|baseline版本的seq2seq模型|tensorflow2.0
+seq2seq_pgn_tf2|Pointer-Generator Networks（PGN）模型|tensorflow2.0
 
+其他：
 seq2seq_paddle是使用paddlepaddle搭建的模型（暂停开发）
 
 # 代码部分
